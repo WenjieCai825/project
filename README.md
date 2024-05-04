@@ -1,5 +1,5 @@
 # Project
-In this project, we are going to import dataset from NHANES website, manage and analyze the data. I will update the project.do as the project goes on. My colleagues could see every change I made on the project. do from the github commit statements record. This is amazing. 
+In this project, we are going to import dataset from NHANES website, manage and analyze the data. I will update the project.do as the project goes on. My colleagues could contribute to the project by adjusting the project.do code and see every change we made on it from the github commit statements record. 
 
 ### 1. Download and edit the ```Stata_ReadInProgramALlSurveys.do``` provided by NHANES. Upload the edited do file to the github. This do file imports and prepare the mortality data which further analysis would be based on. 
   ```stata
@@ -34,5 +34,6 @@ merge 1:1 seqn using demo_mortality, nogen
 sts graph, by(huq010) fail
 stcox i.huq010
 ```
+Documentation for HUQ dataset: https://wwwn.cdc.gov/Nchs/Nhanes/1999-2000/HUQ.htm
 
 # $${\color {lightblue}Stay \space tuned!}$$
