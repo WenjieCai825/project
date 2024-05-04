@@ -1,12 +1,9 @@
-//use your own username/project repo instead of the class repo below
-global repo "https://github.com/WenjieCai825/project/blob/main/"
+global repo "https://raw.githubusercontent.com/WenjieCai825/project/main/"
 do ${repo}followup.do
 save followup, replace 
 import sasxport5 "https://wwwn.cdc.gov/Nchs/Nhanes/1999-2000/DEMO.XPT", clear
 merge 1:1 seqn using followup
 lookfor follow
-
-// Key Parameters for Week 7s Analysis
 lookfor mortstat permth_int eligstat 
 keep if eligstat==1
 capture g years=permth_int/12
