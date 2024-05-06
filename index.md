@@ -36,4 +36,4 @@ stcox i.huq010
 ```
 Documentation for HUQ dataset: https://wwwn.cdc.gov/Nchs/Nhanes/1999-2000/HUQ.htm
 
-# $${\color {lightblue}Stay \space tuned!}$$
+<span style="color:lightblue;">Stay tuned!</span>
