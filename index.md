@@ -37,3 +37,6 @@ stcox i.huq010
 Documentation for HUQ dataset: https://wwwn.cdc.gov/Nchs/Nhanes/1999-2000/HUQ.htm
 
 <span style="color:lightblue;">Stay tuned!</span>
+
+### 5. week7 survival analysis
+click [here](week7.html) to view nonparametric and semiparametric risk estimates from Stata
